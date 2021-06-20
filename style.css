@@ -1,15 +1,30 @@
+body {
+    background: white;
+  }
 .header{
     display: flex;
     flex-direction: row;
     place-content: space-between;
 }
 .logo{
-    margin: 2rem 0rem 2rem 8rem;
+    margin: 0.5rem 0rem 2rem 8rem;
 }
 .menu{
-    width: max-content;
-    height: max-content;
-    margin: 2rem 25rem 0rem 0rem;
+    margin: 2rem 10.2rem 0rem 10rem;
+    font-size: 24px;
+    font-weight: 300;
+    
+}
+.menu::after{
+    content:'';
+    position: absolute;
+    background-color: black;
+    width: 82.1%;
+    height: 0.5px;
+    bottom: 87%;
+    left:0;
+    margin-left: 9rem;
+    max-width: 100%;
 }
 ul{
     list-style: none;
@@ -32,4 +47,55 @@ a:hover{
     padding: 0.5rem 2rem;
     text-decoration: none;
     border-radius: 2rem;
+}
+.hero{
+    display: flex; 
+    flex-direction: row;
+    place-content: space-between;
+}
+.left img{
+    margin: auto ;
+    height: 100%;
+    width: 88.9%;
+}
+.right{
+    width: auto;
+    height: auto;
+}
+.hearts img{
+    padding-top: 5rem;
+    margin: 0rem 0rem 0rem 2.5rem;
+    text-align: center;
+}
+.hiring{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15rem;
+}
+.hiring h1{
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -1rem;
+    font-family: 'Cantata One', serif;
+
+}
+.hiring h2{
+    font-size: 100px;
+    font-weight: 400;
+    margin-top: -4rem;
+    text-align: center;
+    font-family: 'Cantata One', serif;
+
+}
+.hiring h4{
+    font-size: 40px;
+    font-weight:500;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin-top: -3rem;
+    padding: 0.5rem 0.5rem;
+
 }
