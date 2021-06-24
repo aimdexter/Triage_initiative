@@ -1,5 +1,6 @@
 body {
-    background: white;
+    background: lightgrey;
+    
 
   }
 .header{
@@ -57,15 +58,14 @@ li{
     flex-direction: row;
     place-content: space-between;
     margin-bottom: -14rem;
+
 }
 .left{
     width: 50%;
-    /* height: 50%; */
 }
 .left img{
     width: auto;
     height: 87.8%;
-    margin-left: rem;
 }
 .right{
     width: auto;
@@ -111,13 +111,15 @@ li{
 .social-media{
     display: flex;
     flex-direction: row;
-    place-content: space-between;
-    width: 10%;
-    padding: 9rem 0rem 0rem 28rem;
+    padding: 9rem 0rem 0rem 2rem;
+    margin: 0rem 0rem 0rem 40rem;
+
 }
 .social-media a{
-    /* margin: 2rem 10.2rem 0rem 10rem; */
+    margin: 0rem 0rem 0rem 1rem;
     font-size: 25px;
+    text-decoration: none;
+    color: black;
 }
 .main{
     display: flex;
@@ -125,7 +127,7 @@ li{
     margin: 7rem 0rem 0rem 0rem ;
     padding: 10rem 0rem;
     place-content: space-between;
-    background-color: blanchedalmond;
+    background-color: white;
 }
 .triage-logo{
     width: 50%;
