@@ -1,10 +1,14 @@
 body {
     background: white;
+
   }
 .header{
     display: flex;
     flex-direction: row;
     place-content: space-between;
+}
+.header img{
+    position: relative;
 }
 .logo{
     margin: 0.5rem 0rem 2rem 8rem;
@@ -33,14 +37,14 @@ li{
     display: inline;
     padding: 0rem;
 }
-a{
+.menu a{
     display: inline-block;
     color: black;
     padding: 0.5rem 2rem;
     text-decoration: none;
     font-family: 'Cantata One', serif;
 }
-a:hover{
+.menu a:hover{
     display: inline-block;
     background-color: black;
     color: white;
@@ -52,11 +56,16 @@ a:hover{
     display: flex; 
     flex-direction: row;
     place-content: space-between;
+    margin-bottom: -14rem;
+}
+.left{
+    width: 50%;
+    /* height: 50%; */
 }
 .left img{
-    margin: auto ;
-    height: 100%;
-    width: 88.9%;
+    width: auto;
+    height: 87.8%;
+    margin-left: rem;
 }
 .right{
     width: auto;
@@ -97,5 +106,132 @@ a:hover{
     border-radius: 0.4rem;
     margin-top: -3rem;
     padding: 0.5rem 0.5rem;
+
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    place-content: space-between;
+    width: 10%;
+    padding: 9rem 0rem 0rem 28rem;
+}
+.social-media a{
+    /* margin: 2rem 10.2rem 0rem 10rem; */
+    font-size: 25px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin: 7rem 0rem 0rem 0rem ;
+    padding: 10rem 0rem;
+    place-content: space-between;
+    background-color: blanchedalmond;
+}
+.triage-logo{
+    width: 50%;
+    height: 100%;
+    padding: 20rem 0rem;
+    margin: 0rem 0rem 0rem 10rem;
+    background-image: url(./assets/triage-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+ .hiring-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5rem 0rem;
+    margin: 0rem 5rem 0rem 15rem;
+ }
+
+ .hiring-2 h2{
+    font-size: 60px;
+    font-weight: 400;
+    margin:0rem;
+    text-align: center;
+    font-family: 'Cantata One', serif;
+
+}
+ .hiring-2 p{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'Cantata One', serif;
+    
+
+}
+
+.hiring-2 h4{
+    font-size: 30px;
+    font-weight: normal;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.5rem;
+    margin: 0rem 11rem;
+
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 16rem 0rem;
+    font-family: 'Cantata One', serif;
+        
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0rem 0rem 0 15rem;
+    text-align: justify;
+    margin-left: 0rem;
+    margin-top: 6rem;
+
+}
+.sub h1{
+    font-size: 80px;
+    font-weight:normal;
+    padding: 0rem;
+    margin: 0rem 0rem 2rem 0rem ;
+    
+}
+.sub h4{
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 0rem;
+    margin: 0rem 10rem 0rem 0rem;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.form h1{
+    font-size: 40px;
+    font-weight:normal;
+    margin:0.5em 0rem 0.5rem 0rem ;
+}
+.form input{
+    border-radius: 5px;
+    border-style: solid;
+    padding: 0.3rem 20rem 0.3rem 0rem;
+    margin-right: 0rem;
+    background-color: darkgrey;
+    font-size: 25px;
+}
+button{
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 0.5rem 3rem ;
+    font-size: 20px;
+    font-weight: normal;
+    border-style: solid;
+    border-radius: 3rem;
+    color: white;
+    background-color: black;
+    font-family: 'Cantata One', serif;
 
 }
